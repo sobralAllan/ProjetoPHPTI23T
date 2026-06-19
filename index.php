@@ -12,10 +12,10 @@
 </head>
 <body>  
     <h1> Boas Vindas </h1>
-    <a href="telas/somar.php" class="btn btn-primary">Somar</a>    
-    <a href="telas/subtrair.php" class="btn btn-primary">Subtrair</a>
-    <a href="telas/multiplicar.php" class="btn btn-primary">Multiplicar</a>
-    <a href="telas/dividir.php" class="btn btn-primary">Dividir</a>
-    
+    <a href="telas/somar.php" class="btn btn-primary">Somar</a><br> 
+    <a href="telas/subtrair.php" class="btn btn-primary">Subtrair</a><br>
+    <a href="telas/multiplicar.php" class="btn btn-primary">Multiplicar</a><br>
+    <a href="telas/dividir.php" class="btn btn-primary">Dividir</a><br>
+    <a href="telas/bhaskara.php" class="btn btn-primary">Bhaskara</a><br>
 </body>
 </html>

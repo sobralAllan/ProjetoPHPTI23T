@@ -54,6 +54,18 @@
             return "<br>A divisão do $this->num1 e do $this->num2 é: $this->resultado<br>";
         }//fim do dividir
 
+        public function bhaskara(int $a, int $b, int $c){
+            $delta = pow($b,2) - 4 * $a * $c;
+            if($delta < 0){
+                return "Impossível calcular X1 e X2 de delta negativo, valor do delta: $delta";
+            }else{
+                $x1 = (-$b + sqrt($delta))/(2 * $a); 
+                $x2 = (-$b - sqrt($delta))/(2 * $a);
+                return "<br>Delta: $delta<br>X1: $x1<br>X2: $x2";
+            }
+        }//fim do bhaskara
+
+        
         
     }//fim da classe função
 ?><!-- Fechamento da TAG PHP -->
