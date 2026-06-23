@@ -17,5 +17,6 @@
     <a href="telas/multiplicar.php" class="btn btn-primary">Multiplicar</a><br>
     <a href="telas/dividir.php" class="btn btn-primary">Dividir</a><br>
     <a href="telas/bhaskara.php" class="btn btn-primary">Bhaskara</a><br>
+    <a href="telas/imc.php" class="btn btn-primary">IMC</a><br>
 </body>
 </html>

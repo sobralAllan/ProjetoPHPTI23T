@@ -65,6 +65,25 @@
             }
         }//fim do bhaskara
 
+        public function calcularImc(float $peso, float $altura){
+            $imc = 0;//Instanciando a variável
+            if($peso <= 0 || $altura <= 0){
+                return "Peso ou altura não estão corretos, informe um valor maior que zero!";
+            }else{
+                $imc = $peso / ($altura^2);
+                if($imc <= 18.5){
+                    return "Abaixo do peso normal, seu IMC é: ".$imc;
+                }else if($imc > 18.5 && $imc <= 24.9){
+                    return "Peso normal, seu IMC é: ".$imc;
+                }else if($imc > 24.9 && $imc < 29.9){
+                    return "Excesso de peso, seu IMC é: ".$imc;
+                }else if($imc > 29.9 && $imc <= 34.9){
+                    return "Obesidade Classe I ".$imc;
+                }else{
+                    return "Obsesidade Classe II".$imc;
+                }//fim do if de classificação
+            }//fim do if...else de validação
+        }//fim do método
         
         
     }//fim da classe função
